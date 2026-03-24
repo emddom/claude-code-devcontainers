@@ -9,7 +9,6 @@ echo "Installing Python 3.14..."
 
 # Pin Python 3.14 for the project
 echo "Pinning Python 3.14..."
-cd /workspaces/claude-devcontainer
 /home/node/.local/bin/uv python pin 3.14
 
 # Get Python 3.14 path

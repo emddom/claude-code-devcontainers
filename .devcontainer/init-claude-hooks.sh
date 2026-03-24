@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Get workspace folder from environment or default
-WORKSPACE_FOLDER="${containerWorkspaceFolder:-/workspaces/claude-devcontainer}"
+WORKSPACE_FOLDER="${containerWorkspaceFolder:-$PWD}"
 WORKSPACE_HOOKS="$WORKSPACE_FOLDER/.claude/hooks"
 TEMPLATE_DIR="/usr/local/share/claude-defaults/hooks"
 
